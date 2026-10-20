@@ -1,0 +1,6 @@
+1. What would you conclude from the summary statistics alone?
+The 13 datasets have nearly identical means, standard deviations, and correlation coefficients. Based only on these statistics, we might conclude that the datasets have similar characteristics and relationships between X and Y. However, these statistics do not reveal the actual distribution or shape of the data.
+2. What did you actually find from the scatter plots?
+The scatter plots reveal that the 13 datasets have very different patterns despite having nearly identical summary statistics. Some form recognizable shapes, such as a dinosaur, circle, star, and bullseye, while others form lines or clusters. This shows that summary statistics alone cannot fully describe a dataset.
+3. Does having 13 datasets and 142 points each make the summary statistics more trustworthy? Why or why not?
+No. Having more datasets and observations does not guarantee that summary statistics accurately represent the underlying data patterns. The Datasaurus Dozen demonstrates that datasets can have nearly identical means, standard deviations, and correlations while having very different visual structures. Therefore, data visualization is essential alongside summary statistics to understand data properly.
