@@ -1,0 +1,2 @@
+estimate_method,data_marks,estimated_nondata_marks,estimated_total_marks,estimated_data_ink_ratio,working
+"Count each bar as one data mark; estimate labels, gridline segments, frame edges, legend swatches/text, and axes/ticks as non-data marks.",51,271,322,0.158,51 data marks / (51 data marks + 271 estimated non-data marks) = 0.158

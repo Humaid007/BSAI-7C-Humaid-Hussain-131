@@ -1,0 +1,11 @@
+element,classification,reason
+Bars and their heights,Intrinsic,Encode the 51 numeric values.
+State labels,Intrinsic / partly extraneous,"Identify each bar, but 51 rotated labels overwhelm scanning."
+51 distinct colours,Extraneous,No variable maps to colour; colours add arbitrary differences.
+Heavy horizontal gridlines,Extraneous,Too dark and dense for reading values.
+Vertical gridlines,Extraneous,Do not improve comparison of bar heights.
+Full box frame,Extraneous,Adds boundaries without encoding data.
+51-entry legend,Extraneous,Repeats state labels and colour has no data meaning.
+Drop shadow / 3-D effect,Extraneous,Adds decorative ink and can distort perceived size.
+Title naming axes,Partly germane,Communicates topic but duplicates axis labels rather than stating a finding.
+Axis ticks / baseline,Germane,Provide scale and reference for comparing bar heights.
