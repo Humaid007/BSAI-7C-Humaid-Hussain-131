@@ -1,0 +1,1 @@
+Week 3 Part E: written justification. PART_E_REPORT.pdf is the one-page submission; PART_E_REPORT.md is the editable version. The appendix heart-rate histogram preserves visibility of high readings before exclusion. Dataset and Part D files are included for reproducibility.
