@@ -1,0 +1,7 @@
+field,rule,rows_affected,action
+admit_date,Parse mixed formats with day-first for slash dates; unparseable values become missing,0,normalized to datetime; invalid values set NaT
+ward,"Trim whitespace, normalize case/punctuation and map known aliases to canonical ward names",6527,"canonical labels: General Medicine, Cardiology, Day Surgery, Intensive Care"
+heart_rate,Values outside 30–220 bpm are treated as implausible/missing,37,set to missing in analysis copy; source CSV unchanged
+bmi,Values outside 10–80 kg/m² are treated as implausible/missing,486,set to missing in analysis copy; source CSV unchanged
+los_days,LOS above 60 days is flagged as an extreme entry for this cohort and excluded from plotted distributions; raw value retained in source,18,set to missing in analysis copy; source CSV unchanged
+map_mmhg,Recognize MAP as a derived blood-pressure measure; exclude from correlation heatmap to avoid duplicate signal,0,"retained in cleaned file, excluded from heatmap"
