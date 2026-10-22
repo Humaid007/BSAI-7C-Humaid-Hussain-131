@@ -1,0 +1,13 @@
+palette,condition,slot_1,slot_2,colour_1_original,colour_2_original,simulated_deltaE,verdict
+tab10_first_four,deutan,3,4,#2CA02C,#D62728,4.06,FAILS — same colour
+tab10_first_four,protan,2,3,#FF7F0E,#2CA02C,0.68,FAILS — same colour
+tab10_first_four,tritan,1,3,#1F77B4,#2CA02C,6.72,needs a second channel
+tab10_first_four,normal vision,2,4,#FF7F0E,#D62728,18.6,clear
+course_palette_three,deutan,2,3,#D55E00,#009E73,11.01,ok
+course_palette_three,protan,2,3,#D55E00,#009E73,12.95,ok
+course_palette_three,tritan,1,3,#0072B2,#009E73,8.37,ok
+course_palette_three,normal vision,1,3,#0072B2,#009E73,18.71,clear
+course_palette_four,deutan,3,4,#009E73,#CC79A7,7.55,needs a second channel
+course_palette_four,protan,1,4,#0072B2,#CC79A7,9.49,ok
+course_palette_four,tritan,1,3,#0072B2,#009E73,8.37,ok
+course_palette_four,normal vision,2,4,#D55E00,#CC79A7,16.42,clear
